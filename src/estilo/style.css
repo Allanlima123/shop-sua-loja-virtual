@@ -97,20 +97,22 @@
     object-fit: contain;
 }
 
-.shop-container .container .produto:hover img{
-    animation: efeito3D 1s ease-in-out;
-    transition: 1s ease-in-out;
+.shop-container .container .produto img{
+    animation: efeito3D 5s ease-in-out infinite;
+    transition: 3s ease-in-out;
 }
 
 @keyframes efeito3D {
     0%{
-        transform: scale(.7);
-        opacity: 0;
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-5rem);
     }
 
     100%{
-        transform: scale(1);
-        opacity: 1;
+        transform: translateY(0) scale(1);
     }
 }
 
