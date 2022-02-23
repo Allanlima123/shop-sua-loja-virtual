@@ -1,0 +1,15 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+
+:root{
+    --Vermelho: #ca3b3a;
+    --Preto: #161616;
+    --Cinza: #707070;
+    --branco:#ffffff;
+    --fonte-Montserrat:'Montserrat',sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
