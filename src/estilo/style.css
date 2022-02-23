@@ -148,12 +148,13 @@
 }
 
 .shop-container .container .descricao-produto .avaliacao span{
+    display: inline-block;
     font-size: 1.6rem;
     color: var(--Vermelho);
 }
 
 .shop-container .container .descricao-produto .acoes-fone{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .shop-container .container .descricao-produto .acoes-fone h4{
@@ -274,10 +275,41 @@
 
 @media(max-width:425px){
     .shop-container .container .descricao-produto .titulo{
-        font-size: 2.7rem;
+        font-size: 2.8rem;
         font-weight: 700;
         color: var(--Vermelho);
         letter-spacing: 3px;
         margin-bottom: 2.5rem;
+    }
+
+    .shop-container .container .descricao-produto .sobre-fone{
+        font-size: 1.8rem;
+    }
+
+    .shop-container .container .descricao-produto .avaliacao .stars i{
+        font-size: 2.3rem;
+    }
+
+    .shop-container .container .descricao-produto .avaliacao span{
+        font-size: 2.3rem;
+        color: var(--Vermelho);
+    }
+
+    .shop-container .container .descricao-produto .acoes-fone h4{
+        font-size: 1.8rem;
+    }
+    
+    .shop-container .container .descricao-produto .acoes-fone p{
+        font-size: 1.5rem;
+    }
+
+    .shop-container .container .descricao-produto .buttons .preco{
+        font-size: 3rem;
+    }
+
+    .shop-container .container .descricao-produto .buttons .btnCart{
+        height: 4.5rem;
+        width: 16rem;
+        line-height: 4.5rem;
     }
 }
